@@ -1,7 +1,7 @@
 # VSCodePSX
 A basic setup to get coding for PSX on Win 10 64bit with VS Code  
 Use modern day GCC with the unofficial official based SDK  
-Guide by NDR008  
+Guide by NDR008, many many contributors to this!
 
 ## Step 0: Get work folder ready:  
 - Unzip: clone this repo somewhere
