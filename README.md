@@ -4,7 +4,7 @@ Use modern day GCC with the unofficial official based SDK
 Guide by NDR008  
 
 ## Step 0: Get work folder ready:  
-- Unzip: GetStarteVSCode.zip (inside there are 2 folders: "third_party" and "get_started").  
+- Unzip: clone this repo somewhere
 - Unzip: Unzip http://psx.arthus.net/sdk/Psy-Q/psyq-4.7-converted-full.7z into the third_party folder  
 
 
