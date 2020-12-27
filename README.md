@@ -4,7 +4,7 @@ Use modern day GCC with the unofficial official based SDK
 Guide by NDR008, many many contributors to this!
 
 ## Step 0: Get work folder ready:  
-- Unzip: clone this repo somewhere
+- Clone this repo somewhere (if you want to skip git stuff for now.. just download the zip from the github).
 - Unzip: Unzip http://psx.arthus.net/sdk/Psy-Q/psyq-4.7-converted-full.7z into the third_party folder  
 
 
