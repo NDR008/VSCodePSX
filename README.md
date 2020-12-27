@@ -19,10 +19,11 @@ c) Restart just in case
 d) Install: https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?SilentAuth=1&wa=wsignin1.0&activetab=pivot:overviewtab  
 e) Winkey + R and type:    wsl  
 f) Follow the instructions to setup a username and passowrd  
-gi ) When Ubuntu is ready type:  
-``` sudo apt-get update
+g) When Ubuntu is ready type:  
+  ```sudo apt-get update
   sudo apt-get install -y g++-mipsel-linux-gnu  
-  sudo apt-get install -y make```    
+  sudo apt-get install -y make
+```   
 h) When above installations are done type "code ."  
 (wait for some stuff to happen)  
   
