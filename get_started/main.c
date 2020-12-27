@@ -3,7 +3,7 @@
 Really basic hello world
 */
 
-#include "common/syscalls/syscalls.h"
+#include <stdio.h>
 
 int main() {
     printf("Hello world\n");
