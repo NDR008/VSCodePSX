@@ -44,3 +44,25 @@ in WSL:
 ```sudo apt-get install -y gdb-multiarch  ```  
 and install this extension in VSCode (install in WLS too):  
 https://marketplace.visualstudio.com/items?itemName=webfreak.debug  
+make sure it is enabled  
+![Native Debug Extension](NativeDebug.png)
+
+Load open bios in pcsx-redux and make sure that make sure that debugging related options are on
+![Redux Settings](Redux.png)  
+
+If you use WSL2 instead of WSL(1) or change other settings you make have to modify launch.json
+![Launch Json](json.png)  
+1) & 3) Make sure that the target & load lines match the right elf file.  
+2) if you are using a non linux or alternative gdb somehow, obviously change the gdb bin location.  
+4) assuming you are running redux on the same machine, then localhost *should* be fine, but I found that it does not work on WSL2. Instead you have to type the local IP address (like 192.168.1.10)...  
+  
+Then off you are to debug.  
+![Debug!](DebugAway.png)  
+- Open pcsx-redux  
+- Open your source file  
+- Add breakpoints (red dot near your target line number)  
+- Switch to the Debug extension from the left pain (Play with bug icon)  
+- Run the debugger  
+
+Enjoy - code should halt/pause at the breakpoint, waiting for you to tell it to continue or not.  
+
