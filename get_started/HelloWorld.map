@@ -1,0 +1,270 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../third_party/psyq/lib/libc.a(c63.o)
+                              main.o (printf)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .reginfo       0x0000000000000000       0x18 main.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 main.o
+ .pdr           0x0000000000000000       0x20 main.o
+ .text          0x0000000000000000        0x0 ../../third_party/common/syscalls/printf.o
+ .data          0x0000000000000000        0x0 ../../third_party/common/syscalls/printf.o
+ .bss           0x0000000000000000        0x0 ../../third_party/common/syscalls/printf.o
+ .reginfo       0x0000000000000000       0x18 ../../third_party/common/syscalls/printf.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 ../../third_party/common/syscalls/printf.o
+ .pdr           0x0000000000000000        0x0 ../../third_party/common/syscalls/printf.o
+ .ramtext       0x0000000000000000        0xc ../../third_party/common/syscalls/printf.o
+ .debug_line    0x0000000000000000       0x5c ../../third_party/common/syscalls/printf.o
+ .debug_info    0x0000000000000000       0x26 ../../third_party/common/syscalls/printf.o
+ .debug_abbrev  0x0000000000000000       0x14 ../../third_party/common/syscalls/printf.o
+ .debug_aranges
+                0x0000000000000000       0x20 ../../third_party/common/syscalls/printf.o
+ .debug_str     0x0000000000000000       0x58 ../../third_party/common/syscalls/printf.o
+ .gnu.attributes
+                0x0000000000000000       0x10 ../../third_party/common/syscalls/printf.o
+ .text          0x0000000000000000        0x0 ../../third_party/common/crt0/crt0.o
+ .data          0x0000000000000000        0x0 ../../third_party/common/crt0/crt0.o
+ .bss           0x0000000000000000        0x0 ../../third_party/common/crt0/crt0.o
+ .reginfo       0x0000000000000000       0x18 ../../third_party/common/crt0/crt0.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 ../../third_party/common/crt0/crt0.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+loader           0x000000008000f800 0x0000000000000800
+ram              0x0000000080010000 0x00000000001f0000 xrw
+dcache           0x000000001f800000 0x0000000000000400
+kttyram          0x000000000000c000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD ../../third_party/common/syscalls/printf.o
+LOAD ../../third_party/common/crt0/crt0.o
+START GROUP
+LOAD ../../third_party/psyq/lib/libapi.a
+LOAD ../../third_party/psyq/lib/libc.a
+LOAD ../../third_party/psyq/lib/libc2.a
+LOAD ../../third_party/psyq/lib/libcard.a
+LOAD ../../third_party/psyq/lib/libcomb.a
+LOAD ../../third_party/psyq/lib/libds.a
+LOAD ../../third_party/psyq/lib/libetc.a
+LOAD ../../third_party/psyq/lib/libgpu.a
+LOAD ../../third_party/psyq/lib/libgs.a
+LOAD ../../third_party/psyq/lib/libgte.a
+LOAD ../../third_party/psyq/lib/libgpu.a
+LOAD ../../third_party/psyq/lib/libgun.a
+LOAD ../../third_party/psyq/lib/libhmd.a
+LOAD ../../third_party/psyq/lib/libmath.a
+LOAD ../../third_party/psyq/lib/libmcrd.a
+LOAD ../../third_party/psyq/lib/libmcx.a
+LOAD ../../third_party/psyq/lib/libpad.a
+LOAD ../../third_party/psyq/lib/libpress.a
+LOAD ../../third_party/psyq/lib/libsio.a
+LOAD ../../third_party/psyq/lib/libsnd.a
+LOAD ../../third_party/psyq/lib/libspu.a
+LOAD ../../third_party/psyq/lib/libtap.a
+END GROUP
+                0x0000000080010000                TLOAD_ADDR = DEFINED (TLOAD_ADDR)?TLOAD_ADDR:0x80010000
+                0x0000000080200000                __ram_top = (ORIGIN (ram) + LENGTH (ram))
+                0x00000000801fff00                __sp = (__ram_top - 0x100)
+                0x000000001f800000                __dcache = ORIGIN (dcache)
+                0x000000001f800400                __dcache_top = (ORIGIN (dcache) + LENGTH (dcache))
+                0x0000000000000000                __bss_len = (__bss_end - __bss_start)
+                0xffffffff7fffc000                __ftext_len = (__ftext_end - __ftext_start)
+                0x0000000080004800                __fdata_len = (__fdata_end - __fdata_start)
+                0x0000000080200000                __stack_start = (ORIGIN (ram) + LENGTH (ram))
+                0x0000000000000000                __ktty_length = (__ktty_dest_end - __ktty_dest_start)
+
+.PSX_EXE_Header
+                0x000000008000f800      0x800
+                0x000000008000f800        0x1 BYTE 0x50
+                0x000000008000f801        0x1 BYTE 0x53
+                0x000000008000f802        0x1 BYTE 0x2d
+                0x000000008000f803        0x1 BYTE 0x58
+                0x000000008000f804        0x1 BYTE 0x20
+                0x000000008000f805        0x1 BYTE 0x45
+                0x000000008000f806        0x1 BYTE 0x58
+                0x000000008000f807        0x1 BYTE 0x45
+                0x000000008000f808        0x4 LONG 0x0
+                0x000000008000f80c        0x4 LONG 0x0
+                0x000000008000f810        0x4 LONG 0x80010000 ABSOLUTE (_start)
+                0x000000008000f814        0x4 LONG 0x0
+                0x000000008000f818        0x4 LONG 0x80010000 TLOAD_ADDR
+                0x000000008000f81c        0x4 LONG 0x800 (__ftext_len + __fdata_len)
+                0x000000008000f820        0x4 LONG 0x0
+                0x000000008000f824        0x4 LONG 0x0
+                0x000000008000f828        0x4 LONG 0x0
+                0x000000008000f82c        0x4 LONG 0x0
+                0x000000008000f830        0x4 LONG 0x801fff00 DEFINED (_sp)?ABSOLUTE (_sp):0x801fff00
+                0x000000008000f834        0x4 LONG 0x0
+                0x0000000080010000                . = (. + 0x7c8)
+ *fill*         0x000000008000f838      0x7c8 
+                0x0000000080010000                __ftext_start = ABSOLUTE (.)
+
+.text           0x0000000080010000       0x70
+ *(.start)
+ .start         0x0000000080010000       0x38 ../../third_party/common/crt0/crt0.o
+                0x0000000080010000                _start
+ *(.init)
+ *(SORT_NONE(.fini))
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup.main
+                0x0000000080010038       0x1c main.o
+                0x0000000080010038                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000080010054        0x4 
+ .text          0x0000000080010058       0x10 ../../third_party/psyq/lib/libc.a(c63.o)
+                0x0000000080010058                printf
+                0x0000000080010070                . = ALIGN (0x10)
+ *fill*         0x0000000080010068        0x8 
+ *(.init)
+                0x0000000080010070                . = ALIGN (0x10)
+ *(.fini)
+                0x0000000080010070                __ktty_src = .
+
+.kttytext       0x000000000000c000        0x0 load address 0x0000000080010070
+                0x000000000000c000                __ktty_dest_start = ABSOLUTE (.)
+ *(.kttytext)
+                0x000000000000c000                __ktty_dest_end = ABSOLUTE (.)
+                0x000000000000c000                . = ALIGN (0x10)
+                0x000000000000c000                . = ALIGN (0x10)
+                0x000000000000c000                __text_end = .
+                0x000000000000c000                __ftext_end = ABSOLUTE (.)
+                0x000000000000c000                __fdata_start = ABSOLUTE (.)
+
+.rodata         0x0000000080010070       0x34
+ *(.rodata .rodata.* .rdata .rdata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000080010070       0x10 main.o
+                0x0000000080010080                . = ALIGN (0x10)
+                0x0000000080010080                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000080010080                __preinit_array_end = .
+                0x0000000080010080                . = ALIGN (0x10)
+                0x0000000080010080                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000080010080                . = ALIGN (0x10)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000000080010080                __init_array_end = .
+                0x0000000080010080                . = ALIGN (0x10)
+                0x0000000080010080                __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+                0x0000000080010080                __fini_array_end = .
+                0x0000000080010080                __build_id = .
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000080010080       0x24 main.o
+                0x00000000800100a4                __build_id_end = .
+
+.rodata1
+ *(.rodata1)
+                0x00000000800100a4                __data_start = .
+
+.data           0x00000000800100a4      0x75c
+ *(.a0table)
+ *(.data .data.* .gnu.linkonce.d.*)
+ *(.data1)
+ *(.got.plt)
+ *(.got)
+                0x0000000080010800                . = ALIGN (0x800)
+ *fill*         0x00000000800100a4      0x75c 
+                0x0000000080010800                . = ALIGN (0x4)
+                0x0000000080010800                __data_end = .
+                0x0000000080010800                __fdata_end = .
+                0x0000000080010800                . = ALIGN (0x4)
+                0x0000000080010800                __bss_start = .
+
+.sbss
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ *(COMMON)
+                0x0000000080010800                . = ALIGN (0x4)
+                0x0000000080010800                __bss_end = .
+                0x0000000080010800                __heap_start = .
+                0x0000000080010800                __end = .
+
+/DISCARD/
+ *(.MIPS.abiflags)
+ *(.rel.iplt)
+ *(.rela.iplt)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.plt)
+ *(.iplt)
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(HelloWorld.elf elf32-tradlittlemips)
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 main.o
+
+.comment        0x0000000000000000       0x2a
+ .comment       0x0000000000000000       0x2a main.o
+                                         0x2b (size before relaxing)
+
+.gnu.attributes
+                0x0000000000000000       0x10
+ .gnu.attributes
+                0x0000000000000000       0x10 main.o
+ .gnu.attributes
+                0x0000000000000010       0x10 ../../third_party/common/crt0/crt0.o
+
+.pdr            0x0000000000000000        0x0
+ .pdr           0x0000000000000000        0x0 ../../third_party/common/crt0/crt0.o
+
+.note           0x0000000000000000       0x74
+ .note          0x0000000000000000       0x74 ../../third_party/psyq/lib/libc.a(c63.o)
+
+.debug_info     0x0000000000000000       0x94
+ .debug_info    0x0000000000000000       0x6e main.o
+ .debug_info    0x000000000000006e       0x26 ../../third_party/common/crt0/crt0.o
+
+.debug_abbrev   0x0000000000000000       0x84
+ .debug_abbrev  0x0000000000000000       0x70 main.o
+ .debug_abbrev  0x0000000000000070       0x14 ../../third_party/common/crt0/crt0.o
+
+.debug_aranges  0x0000000000000000       0x40
+ .debug_aranges
+                0x0000000000000000       0x20 main.o
+ .debug_aranges
+                0x0000000000000020       0x20 ../../third_party/common/crt0/crt0.o
+
+.debug_ranges   0x0000000000000000       0x10
+ .debug_ranges  0x0000000000000000       0x10 main.o
+
+.debug_line     0x0000000000000000       0xdc
+ .debug_line    0x0000000000000000       0x80 main.o
+ .debug_line    0x0000000000000080       0x5c ../../third_party/common/crt0/crt0.o
+
+.debug_str      0x0000000000000000      0x16e
+ .debug_str     0x0000000000000000      0x13d main.o
+ .debug_str     0x000000000000013d       0x31 ../../third_party/common/crt0/crt0.o
+                                         0x52 (size before relaxing)
+
+.debug_frame    0x0000000000000000       0x28
+ .debug_frame   0x0000000000000000       0x28 main.o

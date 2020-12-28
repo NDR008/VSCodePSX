@@ -4,7 +4,7 @@
     "configurations": [
         {
             "type": "gdb",
-            "request": "Debug HelloWorld",
+            "request": "launch",
             "name": "(gdb) Launch program",
             "target": "HelloWorld.elf",
             "gdbpath": "/usr/bin/gdb-multiarch",
