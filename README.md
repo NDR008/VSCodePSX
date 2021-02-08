@@ -8,7 +8,7 @@ https://youtu.be/HOVFs5ZtedI
 
 ## Step 0: Get work folder ready:  
 - Clone this repo somewhere (if you want to skip git stuff for now.. just download the zip from the github).
-- Unzip: Unzip http://psx.arthus.net/sdk/Psy-Q/psyq-4.7-converted-full.7z into the third_party folder  
+- Unzip: *SDK* into the third_party folder  
 
 
 ## Step 1: Install WSL and base extension:
