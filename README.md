@@ -9,6 +9,7 @@ https://youtu.be/HOVFs5ZtedI
 ## Step 0: Get work folder ready:  
 - Clone this repo somewhere (if you want to skip git stuff for now.. just download the zip from the github).
 - Unzip: *SDK* (the one made from parsing) into the third_party folder
+(Ask around for it)
 
 
 ## Step 1: Install WSL and base extension:
