@@ -8,9 +8,9 @@ https://youtu.be/HOVFs5ZtedI
 
 ## Step 0: Get work folder ready:  
 - Clone this repo somewhere (if you want to skip git stuff for now.. just download the zip from the github).
-- Unzip: *SDK* (the one made from parsing) into the third_party folder
-(Ask around for it)
-
+- Unzip: *SDK* (the one made from parsing) into the third_party folder  
+(Ask around for it)  
+Check the readme here: https://github.com/NDR008/VSCodePSX/tree/main/third_party  
 
 ## Step 1: Install WSL and base extension:
 a) https://code.visualstudio.com/  
