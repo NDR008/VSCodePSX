@@ -1,4 +1,4 @@
-# VSCodePSX
+# VSCodePSX 
 A basic setup to get coding for PSX on Win 10 64bit with VS Code  
 Use modern day GCC with the unofficial official based SDK  
 Guide by NDR008, many many contributors to this but definitely:
@@ -11,12 +11,17 @@ https://youtu.be/HOVFs5ZtedI
 - Unzip: *SDK* (the one made from parsing) into the third_party folder  
 (Ask around for it)  
 Check the readme here: https://github.com/NDR008/VSCodePSX/tree/main/third_party  
+  
+  
+## Step 1a: Install gcc mipsel on windows:
+http://static.grumpycoder.net/pixel/mips/g++-mipsel-none-elf-10.3.0.zip
 
-## Step 1: Install WSL and base extension:
+
+## Step 1b: Install WSL and base extension:
 a) https://code.visualstudio.com/  
 b) https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl  
 
-## Step 2: Get WSL and Ubuntu Ready  
+## Step 2: Get WSL and Ubuntu Ready (Skip if you follows 1a)
 a) Winkey + R and type:    powershell start-process PowerShell -verb runas  
 b) In Powershell Type:    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart  
 c) Restart just in case  

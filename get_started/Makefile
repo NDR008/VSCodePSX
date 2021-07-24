@@ -1,5 +1,5 @@
 TARGET = HelloWorld
-TYPE = exe
+TYPE = ps-exe
 
 SRCS = main.c \
 ../third_party/common/syscalls/printf.s \

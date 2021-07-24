@@ -1,58 +1,48 @@
-#  
-# MIT License
-#
-# Copyright (c) 2020 PCSX-Redux authors
-# 
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
-#
-#
-
-PREFIX = mipsel-linux-gnu
 BUILD ?= Release
+
+HAS_LINUX_MIPS_GCC = $(shell which mipsel-linux-gnu-gcc > /dev/null 2> /dev/null && echo true || echo false)
+
+ifeq ($(HAS_LINUX_MIPS_GCC),true)
+PREFIX ?= mipsel-linux-gnu
+FORMAT ?= elf32-tradlittlemips
+else
+PREFIX ?= mipsel-none-elf
+FORMAT ?= elf32-littlemips
+endif
 
 ROOTDIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
-CC = $(PREFIX)-gcc
+CC  = $(PREFIX)-gcc
+CXX = $(PREFIX)-g++
 
 TYPE ?= cpe
 LDSCRIPT ?= $(ROOTDIR)/$(TYPE).ld
+ifneq ($(strip $(OVERLAYSCRIPT)),)
+LDSCRIPT := $(addprefix $(OVERLAYSCRIPT) , -T$(LDSCRIPT))
+else
+LDSCRIPT := $(addprefix $(ROOTDIR)/default.ld , -T$(LDSCRIPT))
+endif
+
+USE_FUNCTION_SECTIONS ?= true
 
 ARCHFLAGS = -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32
 ARCHFLAGS += -fno-stack-protector -nostdlib -ffreestanding
-CPPFLAGS += -mno-gpopt -fomit-frame-pointer -ffunction-sections
+ifeq ($(USE_FUNCTION_SECTIONS),true)
+CPPFLAGS += -ffunction-sections
+endif
+CPPFLAGS += -mno-gpopt -fomit-frame-pointer
 CPPFLAGS += -fno-builtin -fno-strict-aliasing -Wno-attributes
 CPPFLAGS += $(ARCHFLAGS)
 CPPFLAGS += -I$(ROOTDIR)
 
-LDFLAGS += -Wl,-Map=$(TARGET).map -nostdlib -T$(LDSCRIPT) -static -Wl,--gc-sections
-LDFLAGS += $(ARCHFLAGS)
-#LDFLAGS += -Xlinker --defsym=TLOAD_ADDR=0x80018000
-#LDFLAGS += -Xlinker --defsym=_TLOAD_ADDR=0x80018000
-
-# MOD
-#CPPFLAGS_Release += -Os
-#LDFLAGS_Release += -Os
+LDFLAGS += -Wl,-Map=$(BINDIR)$(TARGET).map -nostdlib -T$(LDSCRIPT) -static -Wl,--gc-sections
+LDFLAGS += $(ARCHFLAGS) -Wl,--oformat=$(FORMAT)
 
 CPPFLAGS_Release += -Os
 LDFLAGS_Release += -Os
 
-CPPFLAGS_Debug += -O0
+CPPFLAGS_Debug += -Og
+CPPFLAGS_Coverage += -Og
 
 LDFLAGS += -g
 CPPFLAGS += -g
@@ -62,19 +52,26 @@ LDFLAGS += $(LDFLAGS_$(BUILD))
 
 OBJS += $(addsuffix .o, $(basename $(SRCS)))
 
-all: dep $(TARGET).$(TYPE)
+all: dep $(BINDIR)$(TARGET).$(TYPE)
 
-$(TARGET).$(TYPE): $(TARGET).elf
-	$(PREFIX)-objcopy -O binary $< $@
+$(BINDIR)$(TARGET).$(TYPE): $(BINDIR)$(TARGET).elf
+	$(PREFIX)-objcopy $(addprefix -R , $(OVERLAYSECTION)) -O binary $< $@
+	$(foreach ovl, $(OVERLAYSECTION), $(PREFIX)-objcopy -j $(ovl) -O binary $< $(BINDIR)Overlay$(ovl);)
 
-$(TARGET).elf: $(OBJS)
-	$(CC) -g -o $(TARGET).elf $(OBJS) $(LDFLAGS)
+$(BINDIR)$(TARGET).elf: $(OBJS)
+ifneq ($(strip $(BINDIR)),)
+	mkdir -p $(BINDIR)
+endif
+	$(CC) -g -o $(BINDIR)$(TARGET).elf $(OBJS) $(LDFLAGS)
 
 %.o: %.s
 	$(CC) $(ARCHFLAGS) -I$(ROOTDIR) -g -c -o $@ $<
 
 %.dep: %.c
 	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+%.dep: %.cpp
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
 
 %.dep: %.cc
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
@@ -83,14 +80,15 @@ $(TARGET).elf: $(OBJS)
 %.dep: %.s
 	touch $@
 
-DEPS := $(patsubst %.cc,%.dep,$(filter %.cc,$(SRCS)))
-DEPS += $(patsubst %.c,%.dep,$(filter %.c,$(SRCS)))
-DEPS += $(patsubst %.s,%.dep,$(filter %.s,$(SRCS)))
+DEPS := $(patsubst %.cpp, %.dep,$(filter %.cpp,$(SRCS)))
+DEPS := $(patsubst %.cc,  %.dep,$(filter %.cc,$(SRCS)))
+DEPS +=	$(patsubst %.c,   %.dep,$(filter %.c,$(SRCS)))
+DEPS += $(patsubst %.s,   %.dep,$(filter %.s,$(SRCS)))
 
 dep: $(DEPS)
 
 clean:
-	rm -f $(OBJS) $(TARGET).elf $(TARGET).map $(TARGET).$(TYPE) $(DEPS)
+	rm -f $(OBJS) $(BINDIR)Overlay.* $(BINDIR)*.elf $(BINDIR)*.ps-exe $(BINDIR)*.map $(DEPS)
 
 ifneq ($(MAKECMDGOALS), clean)
 ifneq ($(MAKECMDGOALS), deepclean)

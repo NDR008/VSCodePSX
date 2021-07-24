@@ -32,7 +32,7 @@ ENTRY(_start)
 TLOAD_ADDR = DEFINED(TLOAD_ADDR) ? TLOAD_ADDR : 0x80010000;
 
 MEMORY {
-    loader      : ORIGIN = (TLOAD_ADDR - 22), LENGTH = 22
+    loader      : ORIGIN = (TLOAD_ADDR - 0x800), LENGTH = 2048
     ram (rwx)   : ORIGIN = 0x80010000, LENGTH = 2M - 0x10000
     dcache      : ORIGIN = 0x1f800000, LENGTH = 0x400
 }
@@ -50,14 +50,48 @@ __fdata_len     = (__fdata_end - __fdata_start);
 __stack_start   = ORIGIN(ram) + LENGTH(ram);
 
 SECTIONS {
-    .CPE_Header : {
-        BYTE(67); BYTE(80); BYTE(69); BYTE(1); 
-        BYTE(8); BYTE(0);
-        BYTE(3); BYTE(144); BYTE(0);
+    .PSX_EXE_Header : {
+        /*
+            0x0000 - 0x0007 : "PS-X EXE"
+        */
+        BYTE(80); BYTE(83); BYTE(45); BYTE(88); BYTE(32); BYTE(69); BYTE(88); BYTE(69);
+
+        /* 0x0008 - 0x000F : skip text_off and data_off since they're not supported by the PS1 BIOS */
+        LONG(0); LONG(0);
+
+        /* 0x0010 - 0x0013 : entry point */
         LONG(ABSOLUTE(_start));
-        BYTE(1);
+
+        /* 0x0014 - 0x0017 : initial value of $gp */
+        LONG(0);
+
+        /* 0x0018 - 0x001B : Memory address to load "text" section to. */
+        /*
+            NOTE: The "text" section is actually all of the "load"
+            sections of the file including .text, .rodata, .data.
+            etc.
+        */
         LONG(TLOAD_ADDR);
+
+        /* 0x001C - 0x001F :  size, in bytes, of the "text" section. */
         LONG(__ftext_len + __fdata_len);
+
+        /* 0x0020 - 0x002F :
+            Skip "data_addr", "data_size", "bss_addr" and "bss_size".
+            None of these are supported by retail PS1 BIOS.
+        */
+        LONG(0); LONG(0);
+        LONG(0); LONG(0);
+
+        /* 0x0030 - 0x0033 :  Initial stack address. */
+        LONG(DEFINED(_sp) ? ABSOLUTE(_sp) : 0x801FFF00);
+
+        /* 0x0034 - 0x0037 : Initial stack size, set it to 0. */
+        LONG(0);
+
+        /* Skip the remaining fields as they're not supported by the BIOS */
+        /* e.g. 2048 header bytes minus whatever we've actually used */
+        . = . + 1992;
     } > loader
 
     __ftext_start = ABSOLUTE(.);
@@ -130,15 +164,12 @@ SECTIONS {
         *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
         *(.got.plt)
         *(.got)
+        /* pad file to be a multiple of 2048 bytes.  Needed for loading from CD-ROM. */
+        . = ALIGN(2048);
     } > ram
 
-    . = ALIGN(4);
     __data_end = .;
     __fdata_end = .;
-    .data1 : {
-        BYTE(0);
-    } > ram
-    . = ALIGN(4);
     __bss_start = .;
     .sbss (NOLOAD) : {
         *(.dynsbss)
@@ -153,7 +184,8 @@ SECTIONS {
     __bss_end = .;
 
     __heap_start = __heap_base;
-
+	
+	. = ADDR(.text) - 0x800;
     __end = .;
 
     /DISCARD/ : { *(.MIPS.abiflags) }
