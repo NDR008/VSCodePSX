@@ -14,8 +14,9 @@ Check the readme here: https://github.com/NDR008/VSCodePSX/tree/main/third_party
   
   
 ## Step 1a: Install gcc mipsel on windows:
-http://static.grumpycoder.net/pixel/mips/g++-mipsel-none-elf-10.3.0.zip
-
+http://static.grumpycoder.net/pixel/mips/g++-mipsel-none-elf-10.3.0.zip  
+Just put stuff into some folder, and modify the windows Path env variable to point to C:\some_folder_with_gcc\bin
+(I think you also need a bunch of gnuwin stuff)
 
 ## Step 1b: Install WSL and base extension:
 a) https://code.visualstudio.com/  
