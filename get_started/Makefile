@@ -5,6 +5,7 @@ SRCS = main.c \
 ../third_party/common/syscalls/printf.s \
 ../third_party/common/crt0/crt0.s \
 
+CPPFLAGS += -I../third_party/common
 CPPFLAGS += -I../third_party/psyq/include
 LDFLAGS += -L../third_party/psyq/lib
 LDFLAGS += -Wl,--start-group
