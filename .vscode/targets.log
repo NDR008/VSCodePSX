@@ -6,9 +6,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
- 
 
-# Make data base, printed on Sun Jul 24 20:31:09 2022
+# Make data base, printed on Sun Jul 24 22:36:37 2022
 
 # Variables
 
@@ -59,7 +58,7 @@ PROGRAMDATA = C:\ProgramData
 # environment
 MINGW = C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64
 # environment
-VSCODE_CWD = C:\Users\nadir\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = J:\git\VSCodePSX
 # environment
 SE_LICENSE_SERVER = C:\Program Files\Siemens\Solid Edge 2022\Preferences\SELicense.lic
 # environment
@@ -81,7 +80,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9204_NVDYVCEVUAPBQWYA
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14452_QOCBPOYYLLNVTXYY
 # environment
 COMPUTERNAME = GT86TC
 # environment
@@ -89,7 +88,8 @@ PROGRAMFILES = C:\Program Files (x86)
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+ORIGINAL_XDG_C 
+URRENT_DESKTOP = undefined
 # environment
 USERNAME = nadir
 # environment
@@ -99,7 +99,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\nadir\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
@@ -199,7 +199,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 23
 # environment
-VSCODE_PID = 9204
+VSCODE_PID = 14452
 # environment
 _SSLKEYLOGFILE = C:\Users\nadir\Documents\Wireshark\ssl-keys.log
 # environment
@@ -216,10 +216,11 @@ USERDOMAIN_ROAMINGPROFILE = GT86TC
 # : could not be stat'd.
 # C:\glad\include (key C:/glad/include, mtime 1613992112): 4 files, no impossibilities.
 # C:\Program Files\LOVE (key C:/Program Files/LOVE, mtime 1609117476): 17 files, no impossibilities.
-# C:\glfw-3.3.2.bin.WIN64\lib-mingw-w64 (key C:/glfw-3.3.2.bin.WIN64/lib-mingw-w64, mtime 1613990663): 5 files, no impossibilities.
+# C:\glfw-3.3.2.bin.WIN64\lib-mingw-w64 (key C:/glf 
+w-3.3.2.bin.WIN64/lib-mingw-w64, mtime 1613990663): 5 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1608068921): 32 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1658093330): 172 files, no impossibilities.
-# . (key j:/git/VSCodePSX, mtime 1658683421): 12 files, no impossibilities.
+# . (key j:/git/VSCodePSX, mtime 1658689669): 11 files, no impossibilities.
 # C:\g++-mipsel-none-elf-12.1.0\bin (key C:/g++-mipsel-none-elf-12.1.0/bin, mtime 1658664348): 45 files, no impossibilities.
 # C:\glfw-3.3.2.bin.WIN64\include (key C:/glfw-3.3.2.bin.WIN64/include, mtime 1613990663): 3 files, no impossibilities.
 # C:\Program Files\Calibre2\ (key C:/Program Files/Calibre2/, mtime 1640959243): 24 files, no impossibilities.
@@ -241,7 +242,7 @@ USERDOMAIN_ROAMINGPROFILE = GT86TC
 # C:\SDL2-2.0.14\x86_64-w64-mingw32\include (key C:/SDL2-2.0.14/x86_64-w64-mingw32/include, mtime 1541002013): 3 files, no impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1619728377): 105 files, no impossibilities.
 
-# 3887 files, no impossibilities in 27 directories.
+# 3886 files, no impossibilities in 27 directories.
 
 # Implicit Rules
 
@@ -256,7 +257,8 @@ all:
 #  File does not exist.
 #  File has not been updated.
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# Load=0/ 
+32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .DEFAULT:
@@ -303,7 +305,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Sun Jul 24 20:31:09 2022
+# Finished Make data base on Sun Jul 24 22:36:37 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.
