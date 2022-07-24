@@ -1,588 +1,280 @@
 Archive member included to satisfy reference by file (symbol)
 
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_chk.o)
-                              main.o (__printf_chk)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(stack_chk_fail.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_chk.o) (__stack_chk_fail)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fortify_fail.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(stack_chk_fail.o) (__fortify_fail_abort)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-first.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fortify_fail.o) (__libc_argv)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_chk.o) (__stack_chk_guard)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(check_fds.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o) (__libc_check_standard_fds)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-tls.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o) (__libc_setup_tls)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(errno.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(check_fds.o) (__libc_errno)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-first.o) (__assert_fail)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(ctype-info.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-first.o) (__ctype_init)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcgettext.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (__dcgettext)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcgettext.o) (__dcigettext)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(finddomain.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (_nl_find_domain)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(loadmsgcat.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (_nl_load_domain)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(localealias.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(finddomain.o) (_nl_expand_alias)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(l10nflist.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(finddomain.o) (_nl_make_l10nflist)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(explodename.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(finddomain.o) (_nl_explode_name)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(plural.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(loadmsgcat.o) (__gettext_free_exp)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(plural-exp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(loadmsgcat.o) (__gettext_extract_plural)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(hash-string.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__hash_string)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setfpucw.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-first.o) (__setfpucw)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fpu_control.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-first.o) (__fpu_control)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(bsd-_setjmp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o) (_setjmp)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(raise.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (raise)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(abort.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-first.o) (abort)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(msort.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(localealias.o) (qsort)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getenv.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (getenv)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(exit.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o) (exit)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(cxa_atexit.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(exit.o) (__new_exitfn_called)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strtoul.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(plural-exp.o) (strtoul)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strtoul_l.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strtoul.o) (____strtoul_l_internal)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(grouping.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strtoul_l.o) (__correctly_grouped_prefixmb)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(asprintf.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (__asprintf)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_chk.o) (__vfprintf_internal)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf-parsemb.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__parse_one_specmb)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fxprintf.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (__fxprintf)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofclose.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(localealias.o) (_IO_new_fclose)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofflush.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (_IO_fflush)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofopen.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(localealias.o) (_IO_new_fopen)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iopadn.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (_IO_padn)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wfileops.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofopen.o) (_IO_wfile_jumps_maybe_mmap)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofwide.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wfileops.o) (__libio_codecvt_out)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vasprintf.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(asprintf.o) (__vasprintf_internal)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc_fatal.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fortify_fail.o) (__libc_message)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vtables.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (_IO_vtable_check)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofgets_u.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(localealias.o) (__fgets_unlocked)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wfileops.o) (_IO_file_close)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(genops.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofclose.o) (_IO_un_link)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(stdfiles.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(genops.o) (_IO_list_all)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(stdio.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (stderr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strops.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vasprintf.o) (_IO_str_init_static_internal)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(alloca_cutoff.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__libc_alloca_cutoff)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-lowlevellock.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__lll_lock_wait_private)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(malloc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (malloc)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(morecore.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(malloc.o) (__default_morecore)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(scratch_buffer_grow_preserve.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__libc_scratch_buffer_grow_preserve)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(scratch_buffer_set_array_size.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__libc_scratch_buffer_set_array_size)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strchr.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (strchr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strcmp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (strcmp)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strcpy.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (strcpy)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strcspn.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (strcspn)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strdup.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__strdup)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(_strerror.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__strerror_r)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strlen.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (strlen)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strnlen.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__strnlen)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strncmp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(l10nflist.o) (strncmp)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strstr.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (strstr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(memcmp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strstr.o) (memcmp)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(memmove.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (memmove)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(memset.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(abort.o) (memset)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mempcpy.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__mempcpy)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(stpcpy.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__stpcpy)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strcasecmp_l.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(localealias.o) (__strcasecmp_l)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(memcpy.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-tls.o) (memcpy)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wordcopy.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(memmove.o) (_wordcopy_fwd_aligned)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(rawmemchr.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__rawmemchr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strchrnul.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__strchrnul)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wmempcpy.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wfileops.o) (__wmempcpy)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcrtomb.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__wcrtomb)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mbsrtowcs.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fxprintf.o) (__mbsrtowcs)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcsrtombs.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__wcsrtombs)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcsnlen.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcsrtombs.o) (__wcsnlen)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcsmbsload.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcrtomb.o) (__wcsmbs_load_conv)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mbsrtowcs_l.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mbsrtowcs.o) (__mbsrtowcs_l)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(_exit.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(abort.o) (_exit)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sysconf.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(msort.o) (__sysconf)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sched_yield.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(genops.o) (__sched_yield)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(get_child_max.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sysconf.o) (__get_child_max)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(environ.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-first.o) (__environ)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fxstat64.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(check_fds.o) (__fxstat64)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(open.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o) (__open)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(read.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o) (__read)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(write.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (__libc_write)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(lseek64.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o) (__lseek64)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getcwd.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__getcwd)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(close_nocancel.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(loadmsgcat.o) (__close_nocancel)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fcntl_nocancel.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(check_fds.o) (__fcntl64_nocancel)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(open_nocancel.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(check_fds.o) (__open_nocancel)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(openat64_nocancel.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getcwd.o) (__openat64_nocancel)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(read_nocancel.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(loadmsgcat.o) (__read_nocancel)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(write_nocancel.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o) (__write_nocancel)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getrlimit.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sysconf.o) (__getrlimit)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sbrk.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-tls.o) (__sbrk)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getpagesize.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o) (__getpagesize)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getdtsz.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sysconf.o) (__getdtablesize)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mmap.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (__mmap)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mmap64.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o) (__mmap64)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(munmap.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (__munmap)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mprotect.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(malloc.o) (__mprotect)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(madvise.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(malloc.o) (__madvise)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(tsearch.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__tsearch)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getsysstats.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(malloc.o) (__get_nprocs)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getclktck.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sysconf.o) (__getclktck)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-misc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-first.o) (__init_misc)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mips-syscall5.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(lseek64.o) (__mips_syscall5)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mips-syscall6.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mmap.o) (__mips_syscall6)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mremap.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o) (__mremap)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sysinfo.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getsysstats.o) (__sysinfo)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wctrans.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__wctrans)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(towctrans.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__towctrans)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(readonly-area.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__readonly_area)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-debug.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o) (_dl_debug_initialize)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-tunables.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o) (__tunables_init)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-support.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o) (_dl_aux_init)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(enbl-secure.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o) (__libc_init_secure)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-profstub.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofwide.o) (_dl_mcount_wrapper_check)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-sysdep.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-start.o) (_dl_discover_osversion)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-vdso.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-first.o) (_dl_vdso_vsym)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sysdep.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sched_yield.o) (__syscall_error)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(errno-loc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sysdep.o) (__errno_location)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_open.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__gconv_open)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__gconv)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_close.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(loadmsgcat.o) (__gconv_close)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_db.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofclose.o) (__gconv_release_step)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_conf.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_db.o) (__gconv_load_conf)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_builtin.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_db.o) (__gconv_get_builtin_trans)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_simple.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcsmbsload.o) (__gconv_btwoc_ascii)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_trans.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_simple.o) (__gconv_transliterate)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_cache.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_conf.o) (__gconv_load_cache)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_dl.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_db.o) (__gconv_find_shlib)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setlocale.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (_nl_category_name_idxs)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(findlocale.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setlocale.o) (_nl_find_locale)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(loadlocale.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(findlocale.o) (_nl_load_locale)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(loadarchive.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(findlocale.o) (_nl_load_locale_from_archive)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(lc-ctype.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(ctype-info.o) (_nl_current_LC_CTYPE)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(lc-numeric.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (_nl_current_LC_NUMERIC)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-ctype.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcrtomb.o) (_nl_C_LC_CTYPE)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(SYS_libc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(assert.o) (_libc_intl_domainname)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C_name.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-ctype.o) (_nl_C_codeset)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (_nl_C_locobj)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(localename.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dcigettext.o) (__current_locale_name)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(global-locale.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setlocale.o) (_nl_global_locale)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setjmp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(bsd-_setjmp.o) (__sigsetjmp)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setjmp_aux.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setjmp.o) (__sigsetjmp_aux)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sigaction.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(abort.o) (__sigaction)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sigprocmask.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(abort.o) (__sigprocmask)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(qsort.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(msort.o) (_quicksort)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setenv.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-support.o) (__unsetenv)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(secure-getenv.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc_fatal.o) (__libc_secure_getenv)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strtol.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sysconf.o) (strtol)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strtol_l.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strtol.o) (____strtol_l_internal)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(_itoa.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (_itoa_word)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(itoa-digits.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(_itoa.o) (_itoa_lower_digits)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(itoa-udigits.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(_itoa.o) (_itoa_upper_digits)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__printf_fp)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(reg-printf.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__printf_function_table)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fphex.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__printf_fphex)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(reg-modifier.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__printf_modifier_table)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(reg-type.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (__printf_va_arg_table)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fprintf.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(malloc.o) (fprintf)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(funlockfile.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfprintf-internal.o) (_IO_funlockfile)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfwprintf-internal.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fxprintf.o) (__vfwprintf_internal)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(errlist.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(_strerror.o) (_sys_errlist_internal)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf-parsewc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfwprintf-internal.o) (__parse_one_specwc)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(filedoalloc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o) (_IO_file_doallocate)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofputs.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(malloc.o) (_IO_fputs)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wfiledoalloc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wfileops.o) (_IO_wfile_doallocate)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofwrite.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(malloc.o) (fwrite)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iogetdelim.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(readonly-area.o) (_IO_getdelim)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iogetline.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iofgets_u.o) (_IO_getline)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(iowpadn.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (_IO_wpadn)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wgenops.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fileops.o) (_IO_wsetb)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(libc-cancellation.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(open.o) (__libc_enable_asynccancel)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strndup.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(findlocale.o) (__strndup)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strrchr.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(init-misc.o) (strrchr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strtok_r.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_open.o) (__strtok_r)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(memchr.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(rawmemchr.o) (memchr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(memmem.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(findlocale.o) (__memmem)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(argz-ctsep.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setlocale.o) (__argz_create_sep)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(argz-addsep.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setlocale.o) (__argz_add_sep)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcslen.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcsrtombs.o) (__wcslen)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wmemchr.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcsnlen.o) (__wmemchr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wmemcpy.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__wmemcpy)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wmemmove.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__wmemmove)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wmemset.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__wmemset)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(btowc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfwprintf-internal.o) (__btowc)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(wcschrnul.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfwprintf-internal.o) (__wcschrnul)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(time.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getsysstats.o) (time)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(opendir.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getsysstats.o) (__opendir)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(closedir.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getcwd.o) (__closedir)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(readdir.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getcwd.o) (__readdir)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(rewinddir.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getcwd.o) (__rewinddir)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getdents.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(readdir.o) (__getdents)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(readdir64.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getsysstats.o) (__readdir64)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fdopendir.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getcwd.o) (__fdopendir)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(uname.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-sysdep.o) (__uname)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getuid.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(enbl-secure.o) (__getuid)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(geteuid.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(enbl-secure.o) (__geteuid)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getgid.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(enbl-secure.o) (__getgid)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getegid.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(enbl-secure.o) (__getegid)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(lxstat64.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getcwd.o) (__lxstat64)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fxstatat64.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getcwd.o) (__fxstatat64)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(lseek.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(rewinddir.o) (__lseek)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(isatty.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(filedoalloc.o) (__isatty)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(open64_nocancel.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-sysdep.o) (__open64_nocancel)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(openat_nocancel.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(opendir.o) (__openat_nocancel)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(tcgetattr.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(isatty.o) (__tcgetattr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(brk.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sbrk.o) (__brk)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-load.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-support.o) (_dl_init_paths)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-lookup.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-vdso.o) (_dl_lookup_symbol_x)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-object.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-support.o) (_dl_add_to_namespace_list)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-reloc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-support.o) (_dl_nothread_init_static_tls)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-hwcaps.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-load.o) (_dl_important_hwcaps)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-misc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-support.o) (_dl_debug_printf)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-profile.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-profstub.o) (_dl_mcount)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-tls.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-load.o) (_dl_next_tls_modid)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-origin.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-support.o) (_dl_get_origin)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-scope.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-lookup.o) (_dl_scope_free)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-execstack.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-support.o) (_dl_make_stack_executable)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-trampoline.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-reloc.o) (_dl_runtime_resolve)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-exception.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-lookup.o) (_dl_exception_create_format)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-cache.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-load.o) (_dl_load_cache_lookup)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-libc.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(gconv_dl.o) (__libc_dlclose)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-error.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-lookup.o) (_dl_signal_exception)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(lc-monetary.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fphex.o) (_nl_current_LC_MONETARY)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-messages.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_MESSAGES)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-monetary.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_MONETARY)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-numeric.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_NUMERIC)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-time.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_TIME)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-paper.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_PAPER)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-name.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_NAME)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-address.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_ADDRESS)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-telephone.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_TELEPHONE)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-measurement.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_MEASUREMENT)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-identification.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_IDENTIFICATION)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(C-collate.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xlocale.o) (_nl_C_LC_COLLATE)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sigjmp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setjmp_aux.o) (__sigjmp_save)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(__longjmp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-error.o) (__longjmp)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(cmp.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__mpn_cmp)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(divrem.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__mpn_divrem)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(lshift.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__mpn_lshift)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(rshift.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__mpn_rshift)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mul.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__mpn_mul)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mul_1.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__mpn_mul_1)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mul_n.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mul.o) (__mpn_impn_mul_n)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sub_n.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(divrem.o) (__mpn_sub_n)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(submul_1.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(divrem.o) (__mpn_submul_1)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dbl2mpn.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (__mpn_extract_double)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(fpioconst.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fp.o) (_fpioconst_pow10)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(_itowa.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(printf_fphex.o) (_itowa)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(itowa-digits.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(vfwprintf-internal.o) (_itowa_upper_digits)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-libc.o) (__libc_register_dlfcn_hook)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdladdr.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o) (__dladdr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdladdr1.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o) (__dladdr1)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlinfo.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o) (__dlinfo)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlmopen.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o) (__dlmopen)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strerror.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o) (strerror)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strspn.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strtok_r.o) (strspn)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(strsep.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-load.o) (__strsep)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getdents64.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(readdir64.o) (__getdents64)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(getpid.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-misc.o) (__getpid)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(xstat64.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-load.o) (__xstat64)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(prctl.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-load.o) (__prctl)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(profil.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-profile.o) (__profil)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(prof-freq.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-profile.o) (__profile_frequency)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-runtime.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-trampoline.o) (_dl_fixup)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-open.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-libc.o) (_dl_open)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-close.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-open.o) (_dl_close_worker)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-sort-maps.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-open.o) (_dl_sort_maps)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-static.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-open.o) (_dl_static_init)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-addr.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdladdr.o) (_dl_addr)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-addr-obj.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-open.o) (_dl_addr_inside_object)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(add_n.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(divrem.o) (__mpn_add_n)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(addmul_1.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(mul.o) (__mpn_addmul_1)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlopen.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o) (__dlopen)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlclose.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o) (__dlclose)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlsym.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o) (__dlsym)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlvsym.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlerror.o) (__dlvsym)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(setitimer.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(profil.o) (__setitimer)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-deps.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-open.o) (_dl_map_object_deps)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-init.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-open.o) (_dl_init)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-version.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-open.o) (_dl_check_map_versions)
-/usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(dl-sym.o)
-                              /usr/lib/gcc-cross/mipsel-linux-gnu/9/../../../../mipsel-linux-gnu/lib/../lib/libc.a(sdlvsym.o) (_dl_vsym)
+../third_party/psyq/lib\libc.a(c63.o)
+                              main.o (printf)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 main.o
+ .pdr           0x0000000000000000       0x20 main.o
+ .text          0x0000000000000000        0x0 ../third_party/common/syscalls/printf.o
+ .data          0x0000000000000000        0x0 ../third_party/common/syscalls/printf.o
+ .bss           0x0000000000000000        0x0 ../third_party/common/syscalls/printf.o
+ .reginfo       0x0000000000000000       0x18 ../third_party/common/syscalls/printf.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 ../third_party/common/syscalls/printf.o
+ .pdr           0x0000000000000000        0x0 ../third_party/common/syscalls/printf.o
+ .ramtext       0x0000000000000000        0xc ../third_party/common/syscalls/printf.o
+ .debug_line    0x0000000000000000       0x4b ../third_party/common/syscalls/printf.o
+ .debug_line_str
+                0x0000000000000000       0x4e ../third_party/common/syscalls/printf.o
+ .debug_info    0x0000000000000000       0x24 ../third_party/common/syscalls/printf.o
+ .debug_abbrev  0x0000000000000000       0x14 ../third_party/common/syscalls/printf.o
+ .debug_aranges
+                0x0000000000000000       0x20 ../third_party/common/syscalls/printf.o
+ .debug_str     0x0000000000000000       0x51 ../third_party/common/syscalls/printf.o
+ .gnu.attributes
+                0x0000000000000000       0x10 ../third_party/common/syscalls/printf.o
+ .text          0x0000000000000000        0x0 ../third_party/common/crt0/crt0.o
+ .data          0x0000000000000000        0x0 ../third_party/common/crt0/crt0.o
+ .bss           0x0000000000000000        0x0 ../third_party/common/crt0/crt0.o
+ .reginfo       0x0000000000000000       0x18 ../third_party/common/crt0/crt0.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 ../third_party/common/crt0/crt0.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+loader           0x000000008000f800 0x0000000000000800
+ram              0x0000000080010000 0x00000000001f0000 xrw
+dcache           0x000000001f800000 0x0000000000000400
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD ../third_party/common/syscalls/printf.o
+LOAD ../third_party/common/crt0/crt0.o
+START GROUP
+LOAD ../third_party/psyq/lib\libapi.a
+LOAD ../third_party/psyq/lib\libc.a
+LOAD ../third_party/psyq/lib\libc2.a
+LOAD ../third_party/psyq/lib\libcard.a
+LOAD ../third_party/psyq/lib\libcomb.a
+LOAD ../third_party/psyq/lib\libds.a
+LOAD ../third_party/psyq/lib\libetc.a
+LOAD ../third_party/psyq/lib\libgpu.a
+LOAD ../third_party/psyq/lib\libgs.a
+LOAD ../third_party/psyq/lib\libgte.a
+LOAD ../third_party/psyq/lib\libgpu.a
+LOAD ../third_party/psyq/lib\libgun.a
+LOAD ../third_party/psyq/lib\libhmd.a
+LOAD ../third_party/psyq/lib\libmath.a
+LOAD ../third_party/psyq/lib\libmcrd.a
+LOAD ../third_party/psyq/lib\libmcx.a
+LOAD ../third_party/psyq/lib\libpad.a
+LOAD ../third_party/psyq/lib\libpress.a
+LOAD ../third_party/psyq/lib\libsio.a
+LOAD ../third_party/psyq/lib\libsnd.a
+LOAD ../third_party/psyq/lib\libspu.a
+LOAD ../third_party/psyq/lib\libtap.a
+END GROUP
+                0x0000000080010800                __heap_base = __bss_end
+                0x0000000080010000                TLOAD_ADDR = DEFINED (TLOAD_ADDR)?TLOAD_ADDR:0x80010000
+                0x0000000080200000                __ram_top = (ORIGIN (ram) + LENGTH (ram))
+                0x00000000801fff00                __sp = (__ram_top - 0x100)
+                0x000000001f800000                __dcache = ORIGIN (dcache)
+                0x000000001f800400                __dcache_top = (ORIGIN (dcache) + LENGTH (dcache))
+                0x0000000000000000                __bss_len = (__bss_end - __bss_start)
+                0x0000000000000090                __ftext_len = (__ftext_end - __ftext_start)
+                0x0000000000000770                __fdata_len = (__fdata_end - __fdata_start)
+                0x0000000080200000                __stack_start = (ORIGIN (ram) + LENGTH (ram))
+
+.PSX_EXE_Header
+                0x000000008000f800      0x800
+                0x000000008000f800        0x1 BYTE 0x50
+                0x000000008000f801        0x1 BYTE 0x53
+                0x000000008000f802        0x1 BYTE 0x2d
+                0x000000008000f803        0x1 BYTE 0x58
+                0x000000008000f804        0x1 BYTE 0x20
+                0x000000008000f805        0x1 BYTE 0x45
+                0x000000008000f806        0x1 BYTE 0x58
+                0x000000008000f807        0x1 BYTE 0x45
+                0x000000008000f808        0x4 LONG 0x0
+                0x000000008000f80c        0x4 LONG 0x0
+                0x000000008000f810        0x4 LONG 0x80010000 ABSOLUTE (_start)
+                0x000000008000f814        0x4 LONG 0x0
+                0x000000008000f818        0x4 LONG 0x80010000 TLOAD_ADDR
+                0x000000008000f81c        0x4 LONG 0x800 (__ftext_len + __fdata_len)
+                0x000000008000f820        0x4 LONG 0x0
+                0x000000008000f824        0x4 LONG 0x0
+                0x000000008000f828        0x4 LONG 0x0
+                0x000000008000f82c        0x4 LONG 0x0
+                0x000000008000f830        0x4 LONG 0x801fff00 DEFINED (_sp)?ABSOLUTE (_sp):0x801fff00
+                0x000000008000f834        0x4 LONG 0x0
+                0x0000000080010000                . = (. + 0x7c8)
+ *fill*         0x000000008000f838      0x7c8 
+                0x0000000080010000                __ftext_start = ABSOLUTE (.)
+
+.text           0x0000000080010000       0x90
+ *(.start)
+ .start         0x0000000080010000       0x64 ../third_party/common/crt0/crt0.o
+                0x0000000080010000                _start
+ *(.init)
+ *(SORT_NONE(.fini))
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup.main
+                0x0000000080010064       0x1c main.o
+                0x0000000080010064                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000080010080       0x10 ../third_party/psyq/lib\libc.a(c63.o)
+                0x0000000080010080                printf
+                0x0000000080010090                . = ALIGN (0x10)
+ *(.init)
+                0x0000000080010090                . = ALIGN (0x10)
+ *(.fini)
+                0x0000000080010090                . = ALIGN (0x10)
+                0x0000000080010090                __text_end = .
+                0x0000000080010090                __ftext_end = ABSOLUTE (.)
+                0x0000000080010090                __fdata_start = ABSOLUTE (.)
+
+.rodata         0x0000000080010090       0x20
+ *(.rodata .rodata.* .rdata .rdata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000080010090        0xd main.o
+ *fill*         0x000000008001009d        0x3 
+ .rodata        0x00000000800100a0       0x10 ../third_party/common/crt0/crt0.o
+                0x00000000800100b0                . = ALIGN (0x10)
+                0x00000000800100b0                __preinit_array_start = .
+ *(.preinit_array)
+                0x00000000800100b0                __preinit_array_end = .
+                0x00000000800100b0                . = ALIGN (0x10)
+                0x00000000800100b0                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x00000000800100b0                . = ALIGN (0x10)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x00000000800100b0                __init_array_end = .
+                0x00000000800100b0                . = ALIGN (0x10)
+                0x00000000800100b0                __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+                0x00000000800100b0                __fini_array_end = .
+                0x00000000800100b0                __build_id = .
+ *(.note.gnu.build-id)
+                0x00000000800100b0                __build_id_end = .
+
+.rodata1
+ *(.rodata1)
+                0x00000000800100b0                __data_start = .
+
+.data           0x00000000800100b0      0x750
+ *(.a0table)
+ *(.data .data.* .gnu.linkonce.d.*)
+ *(.data1)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+ *(.got.plt)
+ *(.got)
+                0x0000000080010800                . = ALIGN (0x800)
+ *fill*         0x00000000800100b0      0x750 
+                0x0000000080010800                __data_end = .
+                0x0000000080010800                __fdata_end = .
+                0x0000000080010800                __bss_start = .
+
+.sbss
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ *(COMMON)
+                0x0000000080010800                . = ALIGN (0x4)
+                0x0000000080010800                __bss_end = .
+                0x0000000080010800                __heap_start = __heap_base
+                0x000000008000f800                . = (ADDR (.text) - 0x800)
+                0x000000008000f800                __end = .
+
+/DISCARD/
+ *(.MIPS.abiflags)
+
+/DISCARD/
+ *(.rel.iplt)
+ *(.rela.iplt)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.plt)
+ *(.iplt)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+.scratchpad
+ *(.scratchpad)
+OUTPUT(HelloWorld.elf elf32-littlemips)
+
+.reginfo        0x0000000000000000       0x18
+ .reginfo       0x0000000000000000       0x18 main.o
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 main.o
+
+.comment        0x0000000000000000       0x12
+ .comment       0x0000000000000000       0x12 main.o
+                                         0x13 (size before relaxing)
+
+.gnu.attributes
+                0x0000000000000000       0x10
+ .gnu.attributes
+                0x0000000000000000       0x10 main.o
+ .gnu.attributes
+                0x0000000000000010       0x10 ../third_party/common/crt0/crt0.o
+
+.pdr            0x0000000000000000        0x0
+ .pdr           0x0000000000000000        0x0 ../third_party/common/crt0/crt0.o
+
+.note           0x0000000000000000       0x74
+ .note          0x0000000000000000       0x74 ../third_party/psyq/lib\libc.a(c63.o)
+
+.debug_info     0x0000000000000000       0xac
+ .debug_info    0x0000000000000000       0x88 main.o
+ .debug_info    0x0000000000000088       0x24 ../third_party/common/crt0/crt0.o
+
+.debug_abbrev   0x0000000000000000       0x9c
+ .debug_abbrev  0x0000000000000000       0x88 main.o
+ .debug_abbrev  0x0000000000000088       0x14 ../third_party/common/crt0/crt0.o
+
+.debug_aranges  0x0000000000000000       0x40
+ .debug_aranges
+                0x0000000000000000       0x20 main.o
+ .debug_aranges
+                0x0000000000000020       0x20 ../third_party/common/crt0/crt0.o
+
+.debug_rnglists
+                0x0000000000000000       0x13
+ .debug_rnglists
+                0x0000000000000000       0x13 main.o
+
+.debug_line     0x0000000000000000       0xd1
+ .debug_line    0x0000000000000000       0x76 main.o
+ .debug_line    0x0000000000000076       0x5b ../third_party/common/crt0/crt0.o
+
+.debug_str      0x0000000000000000      0x14c
+ .debug_str     0x0000000000000000      0x11e main.o
+ .debug_str     0x000000000000011e       0x2e ../third_party/common/crt0/crt0.o
+                                         0x4b (size before relaxing)
+
+.debug_frame    0x0000000000000000       0x28
+ .debug_frame   0x0000000000000000       0x28 main.o
+
+.debug_line_str
+                0x0000000000000000       0x3f
+ .debug_line_str
+                0x0000000000000000       0x3f ../third_party/common/crt0/crt0.o
+                                         0x46 (size before relaxing)

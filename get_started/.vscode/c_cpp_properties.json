@@ -1,14 +1,15 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Linux/Windows",
             "includePath": [
-                "${workspaceFolder}/../third_party/**", 
+                "${workspaceFolder}/../third_party/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [],
             "cStandard": "c11",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "configurationProvider": "ms-vscode.makefile-tools"
         }
     ],
     "version": 4

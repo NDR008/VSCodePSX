@@ -1,0 +1,19 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `j:/git/VSCodePSX/get_started'
+touch ../third_party/common/crt0/crt0.dep
+touch ../third_party/common/syscalls/printf.dep
+mipsel-none-elf-gcc -I../third_party/common -I../third_party/psyq/include -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ij:/git/VSCodePSX/third_party/ -g -Os  -M -MT main.o -MF main.dep main.c
+make.exe: Leaving directory `j:/git/VSCodePSX/get_started'
+make.exe: Entering directory `j:/git/VSCodePSX/get_started'
+mipsel-none-elf-gcc -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ij:/git/VSCodePSX/third_party/ -g -c -o ../third_party/common/syscalls/printf.o ../third_party/common/syscalls/printf.s
+mipsel-none-elf-gcc -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ij:/git/VSCodePSX/third_party/ -g -c -o ../third_party/common/crt0/crt0.o ../third_party/common/crt0/crt0.s
+make.exe: Leaving directory `j:/git/VSCodePSX/get_started'
+ 
+process_begin: CreateProcess(NULL, "", ...) failed.
+main.c:8:10: fatal error: stdio.h: No such file or directory
+    8 | #include <stdio.h>
+      |          ^~~~~~~~~
+compilation terminated.
+process_begin: CreateProcess(NULL, "", ...) failed.
+make.exe: *** No rule to make target `../third_party/psyq/include/stdio.h', needed by `main.o'.
+

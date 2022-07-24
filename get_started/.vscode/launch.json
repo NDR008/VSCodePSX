@@ -4,19 +4,27 @@
     "configurations": [
         {
             "type": "gdb",
-            "request": "launch",
-            "name": "(gdb) Launch program",
-            "target": "HelloWorld.elf",
-            "gdbpath": "/usr/bin/gdb-multiarch",
+            "request": "attach",
+            "name": "(gdb) Launch GDB (Redux)",
+            "target": "localhost:3333",
+            "remote": true,
+            "stopAtConnect": true,
+            "executable": "HelloWorld.elf",
+            "linux": {
+                "gdbpath": "/usr/bin/gdb-multiarch",
+            },
+            "windows": {
+                "gdbpath": "C:/gdb-multiarch-12.1/bin/gdb.exe",
+            },
             "cwd": "${workspaceRoot}",
             "autorun": [
-                "target remote localhost:3333",
+                "set substitute-path /project .",
                 "monitor reset shellhalt",
-                "load HelloWorld.elf",
+                "load ./HelloWorld.elf",
                 "tbreak main",
                 "continue",
             ],
             "valuesFormatting": "parseText"
-        },
+        }
     ]
 }
