@@ -1,6 +1,5 @@
-basics.dep
-basics.o
-main.dep
-main.o
-timerz.dep
-timerz.o
+*.dep
+*.o
+*.elf
+*.ps-exe
+*.log
