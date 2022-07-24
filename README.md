@@ -9,7 +9,7 @@ Schnappy, Nicolas, Sickle, danhans42 and Skitchin.
 
 
 # Youtube Guide
-Watch this space.
+<https://www.youtube.com/watch?v=Axyq_H_o8gI>
 
 # Goals of this Repo
 Many people follow tutorials and youtube videos that rely on people setting up virtual machines to use the original Psyq libraries and tookchains.
