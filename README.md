@@ -69,7 +69,7 @@ Follow these steps no matter what method you will use.
 1.1. Install visual studio: <https://code.visualstudio.com/>  
 1.2. Install the C/C++ extension package: <https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools>  
 1.3. Install the task explorer extension: <https://marketplace.visualstudio.com/items?itemName=spmeesseman.vscode-taskexplorer>  
-1.4. Install the Github extension: <https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio>  
+1.4. Install the Github extension: <https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github>  
 1.5. Install GDB extension: <https://marketplace.visualstudio.com/items?itemName=webfreak.debug>  
 
 ## 2. Clone this repo and add psyq
@@ -99,16 +99,16 @@ The methods are not mutually excluse, but these steps are necessary for a Window
 
 ## 3. Install gcc-mipsel on WSL/Ubuntu
 3.1. Add this plugin for visual studio:  <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl>  
-3.2. Winkey + R and type:    powershell start-process PowerShell -verb runas  
-3.3. In Powershell Type:    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart  
+3.2. Winkey + R and type:    ```powershell start-process PowerShell -verb runas ```  
+3.3. In Powershell Type:    ```dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart  ```  
 3.4. Restart because it is Windows.  
-3.5. Install: <https://apps.microsoft.com/store/detail/ubuntu-2204-lts/9PN20MSR04DW?hl=en-us&gl=US>  
+3.5. Install: <https://apps.microsoft.com/store/detail/ubuntu-20044-lts/9MTTCL66CPXJ>  
 3.6. Winkey + R and type:    wsl  
 3.7. Follow the instructions to setup a username and passowrd  
 3.8. When Ubuntu is ready type:  
   ```
   sudo apt-get update
-  sudo apt-get install -y g++-mipsel-linux-gnu gdb-multiarch make code
+  sudo apt-get install -y g++-mipsel-linux-gnu gdb-multiarch make gzip
 ```   
 3.9. When above installations are done type "code ."   
 VSCode should have launched connected to WSL  
