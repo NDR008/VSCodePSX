@@ -100,7 +100,7 @@ The methods are not mutually excluse, but these steps are necessary for a Window
 3.1. Add this plugin for visual studio:  <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl>  
 3.2. Winkey + R and type:    powershell start-process PowerShell -verb runas  
 3.3. In Powershell Type:    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart  
-3.4. Restart because it is Windows.
+3.4. Restart because it is Windows.  
 3.5. Install: <https://apps.microsoft.com/store/detail/ubuntu-2204-lts/9PN20MSR04DW?hl=en-us&gl=US>  
 3.6. Winkey + R and type:    wsl  
 3.7. Follow the instructions to setup a username and passowrd  
