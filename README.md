@@ -69,7 +69,8 @@ Follow these steps no matter what method you will use.
 1.1. Install visual studio: <https://code.visualstudio.com/>  
 1.2. Install the C/C++ extension package: <https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools>  
 1.3. Install the task explorer extension: <https://marketplace.visualstudio.com/items?itemName=spmeesseman.vscode-taskexplorer>  
-1.4. Install the GithubExtension: <https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio>  
+1.4. Install the Github extension: <https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio>  
+1.5. Install GDB extension: <https://marketplace.visualstudio.com/items?itemName=webfreak.debug>  
 
 ## 2. Clone this repo and add psyq
 
