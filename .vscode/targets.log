@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Sun Jul 24 22:38:53 2022
+# Make data base, printed on Sun Jul 24 22:56:47 2022
 
 # Variables
 
@@ -51,8 +51,7 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile
 MAKEFILE_LIST := 
 # environment
-TMP = C:\Users\nad 
-ir\AppData\Local\Temp
+TMP = C:\Users\nadir\AppData\Local\Temp
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
@@ -82,7 +81,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9884_WEWKARONLADWEZAF
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11308_MUXIGVCKPRVBCRTQ
 # environment
 COMPUTERNAME = GT86TC
 # environment
@@ -118,7 +117,8 @@ MAKECMDGOALS := all
 # environment
 KISYSMOD = C:\Program Files\KiCad\share\kicad\modules
 # environment
-PATH = ;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Calibre2\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Users\nadir\AppData\Local\Microsoft\WindowsApps;C:\Users\nadir\AppData\Local\Programs\Microsoft VS Code\bin;C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\SDL2-2.0.14\x86_64-w64-mingw32\include;C:\glfw-3.3.2.bin.WIN64\include;C:\glfw-3.3.2.bin.WIN64\lib-mingw-w64;C:\Java\jdk-11.0.9.1+1-jre;C:\Program Files\LOVE;C:\glad\include;C:\Program Files (x86)\GnuWin32\bin;C:\bin;C:\Program Files\CMake\bin;C:\g++-mipsel-none-elf-12.1.0\bin;C:\Java\jdk-11.0.14.1+1\bin;C:\mkpsxiso-2.01-win64\bin;
+PATH = ;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Calibre2\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Users\nadir\AppData\Local\Microsoft\WindowsApps;C:\Users\nadir\AppData\Local\Programs\Microsoft VS Code\bin;C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\SDL2-2.0.14\x86_64-w64-mingw32\include;C:\glfw-3.3.2.bin.WIN64\include;C:\glfw-3.3.2.bin.WIN64\lib-mingw-w64;C:\Java\jdk-11.0.9.1+1-jre;C:\Program Files\LOVE;C:\glad\include;C:\Program Fil 
+es (x86)\GnuWin32\bin;C:\bin;C:\Program Files\CMake\bin;C:\g++-mipsel-none-elf-12.1.0\bin;C:\Java\jdk-11.0.14.1+1\bin;C:\mkpsxiso-2.01-win64\bin;
 # environment
 P_SCHEMA = C:\Program Files\Siemens\Solid Edge 2022\Schema
 # default
@@ -200,10 +200,9 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 23
 # environment
-VSCODE_PID = 9884
+VSCODE_PID = 11308
 # environment
-_SSLKE 
-YLOGFILE = C:\Users\nadir\Documents\Wireshark\ssl-keys.log
+_SSLKEYLOGFILE = C:\Users\nadir\Documents\Wireshark\ssl-keys.log
 # environment
 USERDOMAIN_ROAMINGPROFILE = GT86TC
 # variable set hash-table stats:
@@ -222,7 +221,8 @@ USERDOMAIN_ROAMINGPROFILE = GT86TC
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1608068921): 32 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1658093330): 172 files, no impossibilities.
 # . (key j:/git/VSCodePSX, mtime 1658689669): 11 files, no impossibilities.
-# C:\g++-mipsel-none-elf-12.1.0\bin (key C:/g++-mipsel-none-elf-12.1.0/bin, mtime 1658664348): 45 files, no impossibilities.
+# C:\g++-mipsel-none-elf-12.1.0\bin (key C:/g++-mipsel-none-elf 
+-12.1.0/bin, mtime 1658664348): 45 files, no impossibilities.
 # C:\glfw-3.3.2.bin.WIN64\include (key C:/glfw-3.3.2.bin.WIN64/include, mtime 1613990663): 3 files, no impossibilities.
 # C:\Program Files\Calibre2\ (key C:/Program Files/Calibre2/, mtime 1640959243): 24 files, no impossibilities.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1607718166): 10 files, no impossibilities.
@@ -231,8 +231,7 @@ USERDOMAIN_ROAMINGPROFILE = GT86TC
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Java\jdk-11.0.14.1+1\bin (key C:/Java/jdk-11.0.14.1+1/bin, mtime 1649499459): 126 files, no impossibilities.
 # C:\Java\jdk-11.0.9.1+1-jre (key C:/Java/jdk-11.0.9.1+1-jre, mtime 1609978832): 7 files, no impossibilities.
-# C:\Win 
-dows (key C:/Windows, mtime 1608667296): 127 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1608667296): 127 files, no impossibilities.
 # C:\Users\nadir\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/nadir/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1658248421): 4 files, no impossibilities.
 # C:\mkpsxiso-2.01-win64\bin (key C:/mkpsxiso-2.01-win64/bin, mtime 1650915280): 4 files, no impossibilities.
 # C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1639523697): 8 files, no impossibilities.
@@ -279,8 +278,7 @@ makefile:
 
 # Not a target:
 .SUFFIXES:
-#  
- Implicit rule search has not been done.
+#  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -307,7 +305,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Sun Jul 24 22:38:53 2022
+# Finished Make data base on Sun Jul 24 22:56:47 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.
