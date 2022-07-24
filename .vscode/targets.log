@@ -6,8 +6,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
+ 
 
-# Make data base, printed on Sun Jul 24 22:36:37 2022
+# Make data base, printed on Sun Jul 24 22:38:53 2022
 
 # Variables
 
@@ -50,7 +51,8 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile
 MAKEFILE_LIST := 
 # environment
-TMP = C:\Users\nadir\AppData\Local\Temp
+TMP = C:\Users\nad 
+ir\AppData\Local\Temp
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
@@ -58,7 +60,7 @@ PROGRAMDATA = C:\ProgramData
 # environment
 MINGW = C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64
 # environment
-VSCODE_CWD = J:\git\VSCodePSX
+VSCODE_CWD = C:\Users\nadir\AppData\Local\Programs\Microsoft VS Code
 # environment
 SE_LICENSE_SERVER = C:\Program Files\Siemens\Solid Edge 2022\Preferences\SELicense.lic
 # environment
@@ -80,7 +82,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14452_QOCBPOYYLLNVTXYY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9884_WEWKARONLADWEZAF
 # environment
 COMPUTERNAME = GT86TC
 # environment
@@ -88,8 +90,7 @@ PROGRAMFILES = C:\Program Files (x86)
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
-ORIGINAL_XDG_C 
-URRENT_DESKTOP = undefined
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 USERNAME = nadir
 # environment
@@ -199,9 +200,10 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 23
 # environment
-VSCODE_PID = 14452
+VSCODE_PID = 9884
 # environment
-_SSLKEYLOGFILE = C:\Users\nadir\Documents\Wireshark\ssl-keys.log
+_SSLKE 
+YLOGFILE = C:\Users\nadir\Documents\Wireshark\ssl-keys.log
 # environment
 USERDOMAIN_ROAMINGPROFILE = GT86TC
 # variable set hash-table stats:
@@ -216,8 +218,7 @@ USERDOMAIN_ROAMINGPROFILE = GT86TC
 # : could not be stat'd.
 # C:\glad\include (key C:/glad/include, mtime 1613992112): 4 files, no impossibilities.
 # C:\Program Files\LOVE (key C:/Program Files/LOVE, mtime 1609117476): 17 files, no impossibilities.
-# C:\glfw-3.3.2.bin.WIN64\lib-mingw-w64 (key C:/glf 
-w-3.3.2.bin.WIN64/lib-mingw-w64, mtime 1613990663): 5 files, no impossibilities.
+# C:\glfw-3.3.2.bin.WIN64\lib-mingw-w64 (key C:/glfw-3.3.2.bin.WIN64/lib-mingw-w64, mtime 1613990663): 5 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1608068921): 32 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1658093330): 172 files, no impossibilities.
 # . (key j:/git/VSCodePSX, mtime 1658689669): 11 files, no impossibilities.
@@ -230,7 +231,8 @@ w-3.3.2.bin.WIN64/lib-mingw-w64, mtime 1613990663): 5 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Java\jdk-11.0.14.1+1\bin (key C:/Java/jdk-11.0.14.1+1/bin, mtime 1649499459): 126 files, no impossibilities.
 # C:\Java\jdk-11.0.9.1+1-jre (key C:/Java/jdk-11.0.9.1+1-jre, mtime 1609978832): 7 files, no impossibilities.
-# C:\Windows (key C:/Windows, mtime 1608667296): 127 files, no impossibilities.
+# C:\Win 
+dows (key C:/Windows, mtime 1608667296): 127 files, no impossibilities.
 # C:\Users\nadir\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/nadir/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1658248421): 4 files, no impossibilities.
 # C:\mkpsxiso-2.01-win64\bin (key C:/mkpsxiso-2.01-win64/bin, mtime 1650915280): 4 files, no impossibilities.
 # C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1639523697): 8 files, no impossibilities.
@@ -257,8 +259,7 @@ all:
 #  File does not exist.
 #  File has not been updated.
 # variable set hash-table stats:
-# Load=0/ 
-32=0%, Rehash=0, Collisions=0/0=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .DEFAULT:
@@ -278,7 +279,8 @@ makefile:
 
 # Not a target:
 .SUFFIXES:
-#  Implicit rule search has not been done.
+#  
+ Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -305,7 +307,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Sun Jul 24 22:36:37 2022
+# Finished Make data base on Sun Jul 24 22:38:53 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.

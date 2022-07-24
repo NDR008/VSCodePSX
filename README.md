@@ -103,8 +103,8 @@ The methods are not mutually excluse, but these steps are necessary for a Window
 3.3. In Powershell Type:    ```dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart  ```  
 3.4. Restart because it is Windows.  
 3.5. Install: <https://apps.microsoft.com/store/detail/ubuntu-20044-lts/9MTTCL66CPXJ>  
-3.6. Winkey + R and type:    wsl  
-3.7. Follow the instructions to setup a username and passowrd  
+3.6. (If the Ubuntu shell has not launched automatically) Winkey + R and type:    wsl  
+3.7. Follow the instructions to setup a username and password  
 3.8. When Ubuntu is ready type:  
   ```
   sudo apt-get update
