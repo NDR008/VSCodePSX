@@ -80,7 +80,7 @@ Follow these steps no matter what method you will use.
 2.2. Download the magic psyq library from here: <https://psx.arthus.net/sdk/Psy-Q/psyq-4.7-converted-full.7z> (you will need 7zip if you do not have it yet...)  
 2.3. Unzip the contents into the ```third_party\psyq``` folder (be careful, there is already one file: inline_n.h inside ```third_party\psyq\include``` - do not lose it by overwriting the "include" folder from the the zip in step 2.2 over the existing "include").
   
-# Steps for Windows (Nic script method):
+# Steps for Windows using Nic's script (Method 1a):
 
 Open the run promots and type:
 ```powershell -c "& { iwr -UseBasicParsing https://bit.ly/mips-ps1 | iex }"``` 
