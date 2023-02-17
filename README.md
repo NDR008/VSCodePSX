@@ -44,9 +44,10 @@ And if you are still using ePSXe... why?
 # Setting Things Up
 My setup focuses on Windows. I think those that are using Linux natively will know how to adjust the necessary things themselves.
 
-My instructions however do allow for 2 methods.  
+My instructions however do allow for 3 methods.  
 
-- Method 1: Windows natively  
+- Method 1a: Windows automated (using Nic's method)
+- Method 1b: Windows natively  
 - Method 2: Windows with WSL  
 
 The main difference between the methods are how to acquire gcc for MIPS, gdb-multiarch and make. All are readily available on Ubuntu, and does, installing WSL and relying on Ubuntu to install those packages is an easy and reliable method.
@@ -79,7 +80,14 @@ Follow these steps no matter what method you will use.
 2.2. Download the magic psyq library from here: <https://psx.arthus.net/sdk/Psy-Q/psyq-4.7-converted-full.7z> (you will need 7zip if you do not have it yet...)  
 2.3. Unzip the contents into the ```third_party\psyq``` folder (be careful, there is already one file: inline_n.h inside ```third_party\psyq\include``` - do not lose it by overwriting the "include" folder from the the zip in step 2.2 over the existing "include").
   
-# Steps for Windows natively setup (Method 1)
+# Steps for Windows (Nic script method):
+
+Open the run promots and type:
+```powershell -c "& { iwr -UseBasicParsing https://bit.ly/mips-ps1 | iex }"``` 
+Then type ```mips``` followed by a restart to install the complete toolchain
+(Goto #4)
+  
+# Steps for Windows natively setup (Method 1b)
 
 The methods are not mutually excluse, but these steps are necessary for a Windows only setup.
 
@@ -94,6 +102,7 @@ The methods are not mutually excluse, but these steps are necessary for a Window
 3.5. Unzip gdb-multiarch to ```C:\gdb-multiarch-12.1```
 
 <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl>  
+(Goto #4)
 
 # Steps for Windows with WSL (Method 2)
 
@@ -112,6 +121,7 @@ The methods are not mutually excluse, but these steps are necessary for a Window
 ```   
 3.9. When above installations are done type "code ."   
 VSCode should have launched connected to WSL  
+(Goto #4)
 
 ## 4. Start Coding
 
